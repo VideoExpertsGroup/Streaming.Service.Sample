@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+       <FrameLayout
+            android:id="@+id/playerViewLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.04" >
+
+	        <RelativeLayout
+	            android:id="@+id/playerViewRelativeLayout"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent" >
+	
+	           <FrameLayout
+	                android:id="@+id/playerView"
+	                android:layout_width="fill_parent"
+	                android:layout_height="fill_parent"
+	                android:layout_gravity="center"
+	                android:layout_weight="1.04" />
+
+			</RelativeLayout>
+
+
+	   </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+				<AutoCompleteTextView
+					android:id="@+id/edit_id"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:layout_weight="0.8"
+					android:ems="10"
+					android:inputType="number"
+					android:maxWidth="420dp"
+					android:minWidth="150dp"
+					android:singleLine="true"
+					android:textAppearance="?android:attr/textAppearanceSmall" />
+
+				<Button
+					android:id="@+id/button_settings"
+					style="?android:attr/buttonStyleSmall"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="0.1"
+					android:paddingLeft="20dp"
+					android:paddingRight="20dp"
+					android:text="@string/action_settings"
+					android:textAppearance="?android:attr/textAppearanceSmall" />
+                <Button
+                    android:id="@+id/button_connect"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="@string/action_connect"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+			</LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+	<ProgressBar
+		android:id="@+id/player_progress"
+		style="?android:attr/progressBarStyleLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:gravity="center"
+		android:layout_marginBottom="8dp"
+		android:visibility="invisible"
+		/>
+
+
+</RelativeLayout>

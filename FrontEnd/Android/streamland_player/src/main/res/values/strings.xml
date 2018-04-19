@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StreamLand Player (Demo) </string>
+    <string name="app_short_name">StreamLand Player (Demo)</string>
+
+    <string name="action_connect">Connect</string>
+    <string name="action_settings">Server</string>
+    <string name="settings_activity_title">Settings</string>
+
+    <string name="settingsServer">Server</string>
+    <string name="settingsServer_server_summary"></string>
+    <string name="settingsServer_server_title">server address</string>
+    <string name="settingsServer_login_summary"></string>
+    <string name="settingsServer_login_title">login</string>
+    <string name="settingsServer_password_summary"></string>
+    <string name="settingsServer_password_title">password</string>
+    <string name="settingsServer_test_summary"></string>
+    <string name="settingsServer_test_title">Press to check connection</string>
+</resources>

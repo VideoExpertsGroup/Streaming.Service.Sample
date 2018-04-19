@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/settingsServer" >
+        <EditTextPreference
+            android:defaultValue="10.20.16.10"
+            android:key="server"
+            android:summary="@string/settingsServer_server_summary"
+            android:title="@string/settingsServer_server_title" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="login"
+            android:summary="@string/settingsServer_login_summary"
+            android:title="@string/settingsServer_login_title" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="password"
+            android:inputType="textPassword"
+            android:summary="@string/settingsServer_password_summary"
+            android:title="@string/settingsServer_password_title" />
+
+        <PreferenceScreen
+            android:defaultValue="true"
+            android:key="test_server"
+            android:summary="@string/settingsServer_test_summary"
+            android:title="@string/settingsServer_test_title" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
