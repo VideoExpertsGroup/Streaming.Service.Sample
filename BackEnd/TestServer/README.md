@@ -53,4 +53,6 @@ Example request on jquery ajax
 	
 ### VXGStreamLandKey
 
-Please enter your key in VXGStreamLandKey.php 
+Please enter your cloud key in VXGStreamLandKey.php. 
+Cloud key can be пще on VXG DashBoard on page Licence&Plan. 
+https://dashboard.videoexpertsgroup.com/
