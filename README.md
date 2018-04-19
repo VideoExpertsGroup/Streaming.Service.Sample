@@ -4,7 +4,9 @@ VXG sample backend and frontend is template that can be used to implement soluti
 Please find more information about VXG Cloud and VXG Server by following link : 
 https://www.videoexpertsgroup.com/cloud-platform/
 
+## VXG Streaming Server and Test Backend and Test FrontEnd 
 
+<img src="http://www.videoexpertsgroup.com/git/testserver.png" alt="testserver sample" >
 
 ## BackEnd 
 
