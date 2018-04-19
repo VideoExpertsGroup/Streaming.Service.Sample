@@ -1,12 +1,15 @@
-#VXG Sample BackEnd and FrontEnd
+# VXG Sample BackEnd and FrontEnd
 
 VXG sample backend and frontend is template that can be used to implement solution based on streaming platfrom VXG Cloud and VXG server.
 Please find more information about VXG Cloud and VXG Server by following link : 
 https://www.videoexpertsgroup.com/cloud-platform/
 
-## VXG Streaming Server and Test Backend and Test FrontEnd 
+## VXG Streaming Server and Test Backend and Test FrontEnd
 
-<img src="http://www.videoexpertsgroup.com/git/testserver.png" alt="testserver sample" >
+<br>
+<br>
+<img src="http://www.videoexpertsgroup.com/git/testserver1.png" alt="testserver sample" >
+<br>
 
 ## BackEnd 
 
@@ -21,9 +24,11 @@ https://www.videoexpertsgroup.com/cloud-platform/
       Delete channel
       Get list of channels  
 
-## Frontend on Android on iOS
+## Frontend 
 
   Frontend is simple application that allows to stream video to server and playback it on mobile phone.
+  Supported platfrom for Frontend : Android , iOS
+  Supported browser : Chrome, Safary , FireFox , Edge , Internet Explorer. 
     
 ## Limitation
     
