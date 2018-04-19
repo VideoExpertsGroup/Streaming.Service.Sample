@@ -15,8 +15,11 @@ Read more about VXG Cloud and VXG Server - https://www.videoexpertsgroup.com/clo
 
 Backend is a simple PHP server. 
 
-Main features of the server:
-   - User management (Sign up/Sign in/Sign out)
+Main features:
+   - User management
+       - Sign Up
+       - Sign In
+       - Sign Out
    - Channel management 
        - Create new channel for streaming from IP camera or Mobile camera
        - Delete channel
@@ -30,14 +33,14 @@ Supported platforms: Android, iOS
 
 Supported browsers: Chrome, Safary, FireFox, Edge, Internet Explorer. 
     
-## Limitation
+## Limitations
     
-Mobile application gets channel list from server and stream video in first channel for Mobile
+Mobile application gets the channel list from server and streams video in the first channel
 
 Mobile application plays the first channel in the list and there is no option to select another channel 
 
-One or more channels are to be created on server before mobile application can stream video
+One or more channels should be created initially on server before mobile application can stream video
 
-iOS version is not available and will be uploaded soon
+iOS version is not available yet and will be uploaded soon
    
   
