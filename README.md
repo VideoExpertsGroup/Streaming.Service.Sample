@@ -1,13 +1,13 @@
-# VXG Sample BackEnd and FrontEnd
+# Streaming Service Sample
 
-VXG sample backend and frontend is a template that can be used to implement solution based on VXG Cloud and/or VXG Streaming Server.
+Sreaming Service Sample is a simple reference code of a backend server and mobile frontend that can be used to implement streaming service solutions based on VXG Cloud Video and/or VXG Streaming Server.
 
 Read more about VXG Cloud and VXG Server - https://www.videoexpertsgroup.com/cloud-platform/
 
 ## Documentation 
 The full SDK documentation can be found here - https://dashboard.videoexpertsgroup.com/docs/.
 
-## VXG Streaming Server and Test Backend and Test FrontEnd
+## VXG Server and backend server and mobile frontend
 
 <br>
 <br>
